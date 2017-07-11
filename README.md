@@ -9,11 +9,23 @@ Part of a comparision of [Go HTTP routers](https://github.com/avelino/awesome-go
 
 ### Invocation
 
+#### Server
+
 ```console
 go-hello-echo
 ```
 
-In a web browser, visit http://localhost:1323/
+#### Client
+
+In a web browser:
+
+1. Visit http://localhost:1323/ for "Hello world"
+
+`curl` commands
+
+```console
+curl -v -X GET http://localhost:1323/streaming
+```
 
 ## Development
 
